@@ -1,0 +1,13 @@
+/* body {
+    background: linear-gradient(45deg, red, blue);
+    background-repeat: no-repeat;
+    height: 100vh;
+  } */
+
+ .container-principal-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+ }

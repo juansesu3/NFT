@@ -1,0 +1,18 @@
+
+
+.container-principal-header{
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius:15px ;
+    background-color: rgb(182, 182, 182);
+    box-shadow: 10px 10px 10px gray;
+
+}

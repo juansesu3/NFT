@@ -1,0 +1,29 @@
+
+    body {
+        background: linear-gradient(45deg, red, blue);
+        background-repeat: no-repeat;
+        
+      }
+
+.container-princ{
+    background: linear-gradient(45deg,rgb(0, 234, 255),rgb(174, 0, 255) );
+    border: 1px solid rgb(231, 231, 231);
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:20px ;
+    width: 80%;
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
+    padding: 3vw;
+    
+}
+.imagen-log{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-login{
+    font-size: 8vw;
+    font-weight: 700;
+}

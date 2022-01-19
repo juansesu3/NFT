@@ -1,7 +1,8 @@
 
     body {
-        background: linear-gradient(45deg, red, blue);
-        background-repeat: no-repeat;
+        background: linear-gradient(45deg, #0F2F3C, #0F2F3C);
+        /* background-color: #0F2F3C; */
+        /* background-repeat: no-repeat; */
         
       }
 

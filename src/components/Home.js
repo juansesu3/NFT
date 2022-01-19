@@ -6,6 +6,8 @@ import AddData from './AddData';
 import DataList from './DataList';
 import {getFirestore, doc, getDoc, setDoc} from 'firebase/firestore'
 import '../style/Home.css'
+import DrawingUno from './Drawings/DrawingUno';
+import DrawingDos from './Drawings/DrawingDos';
 
 const auth = getAuth(firebaseApp)
 const firestore = getFirestore(firebaseApp)
@@ -74,6 +76,12 @@ const Home = ({correoUsuario}) => {
              setArrayData={setArrayData} 
              correoUsuario={correoUsuario}
              />
+             <DrawingDos/>
+             <hr/>
+             <DrawingUno/>
+             <hr/>
+             
+
            { 
             arrayData 
             ? <DataList
